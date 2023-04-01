@@ -204,6 +204,7 @@ span h5{
     position: absolute;
     right: 6px;
     top: 8px;
+    cursor: pointer;
 }
 .lupa{
     display: flex;
