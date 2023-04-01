@@ -10,7 +10,7 @@
     gap: 32px;
     position: absolute;
     width: 100%;
-    height: 37px;
+    height: 50px;
     left: 0px;
     top: 0px;
     background-color: #fff;
@@ -23,24 +23,34 @@
     flex-direction: row;
     justify-content: space-between;
     width: 67%;
-    height: 45px;
+    height: 50px;
     padding-top: 5px;
-    margin-left: 70px;
+    margin-left: 105px;
+}
+#interact p{
+    font-size: small;
 }
 #texto{
     width: 67%;
-    margin-left: 70px;
+    margin-top: 10px;
+    margin-left: 100px;
     background-color: #f5f5f5;
-    padding: 10px;
+    padding: 13px;
     border-radius: 10px;
-    font-size: x-small;
+    font-size: medium;
+    letter-spacing: -0.3px;
+    font-size: 92%;
+}
+#texto p{
+    margin-bottom: 3px;
 }
 #comentarios{
     display: flex;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     align-items: center;
-    width: 50%;
-    margin-left: 70px; 
+    width: 67%;
+    margin-left: 100px; 
     
     
 }
@@ -49,7 +59,11 @@
     align-items: center;
     width: 67%;
     margin-top: 10px;
-    margin-left: 70px;  
+    margin-left: 105px;  
+}
+#comentario-linha .pic2{
+    width: 45px;
+    margin-right: 10px;
 }
 #comentario-linha div {
     margin-left: 5px;
@@ -60,14 +74,12 @@
 #corpo{
     margin-top: 0;
     background-color: #fff;
-    font-size: smaller;
-
     
 }
 #video{
     display: flex;
-    padding-top: 55px;
-    padding-left: 70px;
+    padding-top: 80px;
+    padding-left: 105px;
 }
 #aside{
     display: flex;
@@ -75,8 +87,8 @@
     justify-content: space-between;
     align-items: end;
     position: absolute;
-    margin-top: 53px;
-    margin-right: 45px;
+    margin-top: 77px;
+    margin-right: 110px;
     top: 0;
     right: 0;
 }
@@ -91,43 +103,54 @@
 span{
     display: flex;
     flex-direction: column;
-    padding-left: 5px;
+    padding-left: 10px;
     margin-right: 17px;
     padding-top: 2px;
 }
 h3{
-    padding-top: 7px;
-    padding-left: 70px;
+    padding-top: 15px;
+    padding-left: 105px;
+    margin-bottom: 5px;
 }
 h5{
     display: inline-block;
-    letter-spacing: -0.5px;
+
 }
 h4{
     cursor: pointer;
+}
+h6{
+    display: inline-block;
+    margin-left: -12px;
+    margin-bottom: 15px;
 }
 
 a{
     text-decoration: none;
 }
 .menu-item1{  
-    width: 250px;
-    height: 30px;
+    margin-top: 5px;
+    margin-left: -5px;
+    width: 375px;
+    height: 50px;
     display: flex;
     align-items: center;
 }
+.menu-item1 svg{
+    margin-right: 5px;
+}
 .pic {
-    width: 80px;
-    padding-top: 1px;
+    width: 125px;
+    padding-top: 2px;
     cursor: pointer;
 }
 .pic2{
-    width: 25px;
+    width: 33px;
     border-radius: 50%;
     margin-top: 4px;
 }
 .pic3{
-    width: 28px;
+    width: 40px;
     border-radius: 50%;
     display: inline-block;
     cursor: pointer;
@@ -138,8 +161,8 @@ span h5{
 
 .menu-item-lupa{
     display: inline-block;
-    width: 46px;
-    height: 27px;
+    width: 65px;
+    height: 40px;
     background: #f5f5f5;
     border-radius: 0px 20px 20px 0px;
     border: 1px solid #CCCCCC;
@@ -151,8 +174,9 @@ span h5{
 }
 .menu-item2{
     display: inline-block;
-    width: 388px;
-    height: 27px;
+    width: 540px;
+    margin-left: -15px;
+    height: 40px;
     border-radius: 20px 0px 0px 20px;
     background: #FFFFFF;
     border: 1px solid #CCCCCC;
@@ -160,45 +184,42 @@ span h5{
     cursor: text;
 }
 .text{
+    margin-top: 9px;
     display: inline-block;
-    padding-left: 12px;
-    font-size: x-small;
+    margin-left: 5px;
+    padding-left: 13px;
     color: #777676;
     text-decoration: none;
 }
 .text1{
     display: inline-block;
-    font-size: x-small;
     color: #616060;
     text-decoration: none;
 }
-.text2{
-    margin-top: 10px;
-    font-size: xx-small;
+.card-text p{
     color: #616060;
-    text-decoration: none;
 }
 .board{
     display: flex;
     position: absolute;
     right: 6px;
-    top: 4px;
+    top: 8px;
 }
 .lupa{
     display: flex;
     justify-content: center;
-    padding-top: 5px;
+    padding-top: 10px;
     cursor: pointer;
 
 }
 .absolute{
     display: flex;
     position: relative;
-    right: 100px;
+    right: 182px;
 }
 .mic{
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     margin-bottom: 2px;
     background-color: #fff;
     border-radius: 50%;
@@ -213,8 +234,10 @@ span h5{
 
 .menu-item3{
     
-    width: 105px;
+    width: 160px;
     height: 25px;
+    margin-top: 5px;
+    margin-right: -10px;
     background: #FFFFFF;
     display: flex;
     justify-content: space-around;
@@ -230,17 +253,19 @@ span h5{
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #f5f5f5;
-    border-radius: 15px;
-    padding: 5px;
-    margin-bottom: 18px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 24px;
     margin-left: 2px;
     margin-right: 2px;
     cursor: pointer;
 }
+.interact-item:hover{
+    background-color: #fafafa;
+    border: 1px solid #f0f0f0;
+}
 .margem{
-    padding-left: 2px;
-    padding-right: 2px;
     margin-left: 2px;
     margin-right: 2px;
 }
@@ -248,33 +273,32 @@ span h5{
     display: flex;
     flex-direction: row;
     background-color: #fff;
-    width: 290px;
-    height: 80px;
-    margin: 2px;
+    width: 395px;
+    height: 120px;
+    margin-bottom: -17px;
+}
+.video-lateral .text2{
+    font-size: small;
 }
 .img-radius{
     display: flex;
-    width: 140px;
+    width: 170px;
     border-radius: 5px;
     cursor: pointer;
 }
 .card-text{
-    margin-top: 5px;
     margin-left: 5px;
-    letter-spacing: -0.3px;
-    text-overflow: ellipsis;
     cursor: pointer;
+    font-size: 94%;
 }
-.text2 > p{
-    margin-bottom: 2px;
-}
+
 .itens-hover:hover{
     margin-bottom: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 27px;
-    height: 27px;
+    width: 40px;
+    height: 40px;
     background-color:  #f5f5f5;
     cursor: pointer;
     border-radius: 50%;
